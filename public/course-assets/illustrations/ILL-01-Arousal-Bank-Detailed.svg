@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6d9a8f;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8fae88;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="goldGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="600" height="800" fill="#ebe8e1"/>
+  
+  <!-- Стеклянная банка -->
+  <rect x="200" y="100" width="200" height="500" fill="none" stroke="#1c261f" stroke-width="3" rx="10"/>
+  
+  <!-- Вода в банке (уровень возбуждения) -->
+  <rect x="200" y="400" width="200" height="200" fill="url(#waterGradient)"/>
+  
+  <!-- Зоны возбуждения -->
+  <!-- Зона спокойствия 0-30% -->
+  <rect x="200" y="500" width="200" height="100" fill="#6d9a8f" opacity="0.2"/>
+  <line x1="200" y1="500" x2="400" y2="500" stroke="#6d9a8f" stroke-width="2"/>
+  <text x="300" y="495" font-family="Arial" font-size="12" fill="#1c261f" text-anchor="middle">0-30% Зона спокойствия</text>
+  
+  <!-- Зона комфорта 30-60% -->
+  <rect x="200" y="400" width="200" height="100" fill="#8fae88" opacity="0.3"/>
+  <line x1="200" y1="400" x2="400" y2="400" stroke="#8fae88" stroke-width="2"/>
+  <text x="300" y="395" font-family="Arial" font-size="12" fill="#1c261f" text-anchor="middle">30-60% Зона комфорта</text>
+  
+  <!-- Зона предупреждения 60-80% -->
+  <rect x="200" y="300" width="200" height="100" fill="#ff6b35" opacity="0.4"/>
+  <line x1="200" y1="300" x2="400" y2="300" stroke="#ff6b35" stroke-width="2"/>
+  <text x="300" y="295" font-family="Arial" font-size="12" fill="#1c261f" text-anchor="middle">60-80% Зона предупреждения</text>
+  
+  <!-- Зона невозврата 80-100% -->
+  <rect x="200" y="200" width="200" height="100" fill="#d32f2f" opacity="0.5"/>
+  <line x1="200" y1="200" x2="400" y2="200" stroke="#d32f2f" stroke-width="2"/>
+  <text x="300" y="195" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">80-100% Зона невозврата</text>
+  
+  <!-- Термометр (температура) -->
+  <rect x="450" y="200" width="30" height="300" fill="#f0f0f0" stroke="#1c261f" stroke-width="2" rx="15"/>
+  <rect x="455" y="350" width="20" height="150" fill="url(#goldGrad3)"/>
+  <circle cx="465" cy="200" r="15" fill="#f0f0f0" stroke="#1c261f" stroke-width="2"/>
+  <text x="465" y="190" font-family="Arial" font-size="10" fill="#1c261f" text-anchor="middle">Температура</text>
+  
+  <!-- Индикатор эластичности -->
+  <circle cx="300" cy="650" r="40" fill="none" stroke="#1c261f" stroke-width="2"/>
+  <circle cx="300" cy="650" r="30" fill="url(#goldGrad3)" opacity="0.3"/>
+  <text x="300" y="645" font-family="Arial" font-size="10" fill="#1c261f" text-anchor="middle">Эластичность</text>
+  <text x="300" y="660" font-family="Arial" font-size="10" fill="#1c261f" text-anchor="middle">Средняя</text>
+  
+  <!-- Заголовок -->
+  <text x="300" y="50" font-family="Georgia, serif" font-size="20" fill="#1c261f" text-anchor="middle" font-weight="bold">Модель "Банка" возбуждения</text>
+  <text x="300" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Твой спидометр, навигатор и компас</text>
+</svg>
+
+
+
+

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="powerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d32f2f;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="goldGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="600" height="600" fill="#ebe8e1"/>
+  
+  <!-- Символ силы (молния/энергия) -->
+  <path d="M 300 100 L 350 250 L 320 250 L 350 400 L 300 300 L 330 300 L 300 450 L 250 300 L 280 300 L 250 150 L 300 250 L 270 250 Z" fill="url(#powerGradient)" stroke="url(#goldGrad6)" stroke-width="3"/>
+  
+  <!-- Круг энергии вокруг -->
+  <circle cx="300" cy="275" r="180" fill="none" stroke="url(#goldGrad6)" stroke-width="3" opacity="0.3"/>
+  <circle cx="300" cy="275" r="150" fill="none" stroke="url(#goldGrad6)" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Текст -->
+  <text x="300" y="500" font-family="Georgia, serif" font-size="24" fill="#1c261f" text-anchor="middle" font-weight="bold">Управление</text>
+  <text x="300" y="530" font-family="Georgia, serif" font-size="16" fill="#666" text-anchor="middle">Твоя сила. С ней ты контролируешь.</text>
+  <text x="300" y="555" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Без нее тебя контролирует процесс</text>
+</svg>
+
+
+
+

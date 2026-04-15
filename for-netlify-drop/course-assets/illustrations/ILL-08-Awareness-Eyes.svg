@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="eyeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8fae88;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8fae88;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="600" height="600" fill="#ebe8e1"/>
+  
+  <!-- Большой глаз (метафора осознанности) -->
+  <ellipse cx="300" cy="300" rx="150" ry="100" fill="url(#eyeGradient)" stroke="#8fae88" stroke-width="4"/>
+  
+  <!-- Радужка -->
+  <circle cx="300" cy="300" r="60" fill="#8fae88" opacity="0.5"/>
+  <circle cx="300" cy="300" r="40" fill="#1c261f"/>
+  <circle cx="300" cy="300" r="20" fill="#ffffff"/>
+  
+  <!-- Ресницы -->
+  <path d="M 150 250 L 160 240 M 200 230 L 210 220 M 250 220 L 260 210 M 350 220 L 360 210 M 400 230 L 410 240 M 450 250 L 460 260" stroke="#1c261f" stroke-width="2" fill="none"/>
+  
+  <!-- Лучи зрения (осознанность видит) -->
+  <line x1="300" y1="200" x2="200" y2="100" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="200" x2="400" y2="100" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  <line x1="300" y1="200" x2="300" y2="50" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Текст -->
+  <text x="300" y="450" font-family="Georgia, serif" font-size="24" fill="#1c261f" text-anchor="middle" font-weight="bold">Осознанность</text>
+  <text x="300" y="480" font-family="Georgia, serif" font-size="16" fill="#666" text-anchor="middle">Твои глаза. Твоя карта. Твой компас.</text>
+  <text x="300" y="510" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Без осознанности ты слеп</text>
+</svg>
+
+
+
+

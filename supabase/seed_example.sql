@@ -1,0 +1,16 @@
+-- Пример ручной выдачи доступа (после оплаты вне автоматического webhook).
+-- Подставьте реальный user_id из Authentication → Users в Supabase.
+
+-- insert into public.subscriptions (user_id, provider, status, plan, current_period_end)
+-- values (
+--   '00000000-0000-0000-0000-000000000000',
+--   'manual',
+--   'active',
+--   'full',
+--   (now() + interval '365 days')
+-- )
+-- on conflict (user_id) do update set
+--   status = excluded.status,
+--   plan = excluded.plan,
+--   current_period_end = excluded.current_period_end,
+--   updated_at = now();

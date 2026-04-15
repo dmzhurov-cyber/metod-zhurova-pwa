@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/>
+      <stop offset="55%" stop-color="#0a0f14"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#99f7ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#00f1fe" stop-opacity="0.28"/><stop offset="70%" stop-color="#99f7ff" stop-opacity="0.05"/><stop offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgGrad)"/>
+<circle cx="200" cy="42" r="22" fill="rgba(0,241,254,0.12)" stroke="#00f1fe" stroke-width="1.3"/>
+  <text x="200" y="47" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="10" font-weight="700">О</text>
+  <circle cx="278" cy="120" r="22" fill="rgba(0,241,254,0.12)" stroke="#00f1fe" stroke-width="1.3"/>
+  <text x="278" y="125" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="10" font-weight="700">П</text>
+  <circle cx="200" cy="198" r="22" fill="rgba(0,241,254,0.12)" stroke="#00f1fe" stroke-width="1.3"/>
+  <text x="200" y="203" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="10" font-weight="700">Д</text>
+  <circle cx="122" cy="120.00000000000001" r="22" fill="rgba(0,241,254,0.12)" stroke="#00f1fe" stroke-width="1.3"/>
+  <text x="122" y="125.00000000000001" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="10" font-weight="700">О</text>
+  <circle cx="200" cy="120" r="16" fill="rgba(153,247,255,0.15)" stroke="#99f7ff" stroke-width="1"/>
+  <rect x="48" y="188" width="18" height="50" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="78" y="215" width="18" height="23" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="108" y="202" width="18" height="36" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <rect x="138" y="189" width="18" height="49" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="168" y="216" width="18" height="22" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="198" y="203" width="18" height="35" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <rect x="228" y="190" width="18" height="48" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="258" y="177" width="18" height="61" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <text x="380" y="248" text-anchor="end" fill="rgba(234,238,246,0.22)" font-family="system-ui,Segoe UI,sans-serif" font-size="9" font-weight="600" letter-spacing="0.12em">28</text>
+</svg>

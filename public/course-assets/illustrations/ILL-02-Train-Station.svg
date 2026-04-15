@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="trainGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8fae88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a4a8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="500" fill="#ebe8e1"/>
+  
+  <!-- Рельсы -->
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#666" stroke-width="4"/>
+  <line x1="0" y1="370" x2="800" y2="370" stroke="#666" stroke-width="4"/>
+  <line x1="0" y1="360" x2="800" y2="360" stroke="#d4af37" stroke-width="1" stroke-dasharray="10,5"/>
+  
+  <!-- Станция (справа) -->
+  <rect x="650" y="200" width="150" height="150" fill="#1c261f" stroke="#d4af37" stroke-width="2"/>
+  <text x="725" y="280" font-family="Arial" font-size="16" fill="#d4af37" text-anchor="middle" font-weight="bold">СТАНЦИЯ</text>
+  <text x="725" y="300" font-family="Arial" font-size="12" fill="#d4af37" text-anchor="middle">Момент эякуляции</text>
+  
+  <!-- Поезд (слева, приближается) -->
+  <rect x="100" y="280" width="200" height="80" rx="10" fill="url(#trainGradient)"/>
+  <rect x="120" y="300" width="160" height="50" fill="#1a2a40"/>
+  <circle cx="150" cy="360" r="20" fill="#1a1a1a"/>
+  <circle cx="250" cy="360" r="20" fill="#1a1a1a"/>
+  
+  <!-- Машинист без сигналов -->
+  <circle cx="200" cy="320" r="15" fill="#d4af37" opacity="0.5"/>
+  <text x="200" y="325" font-family="Arial" font-size="10" fill="#1c261f" text-anchor="middle">?</text>
+  
+  <!-- Отсутствие сигналов -->
+  <rect x="280" y="290" width="20" height="30" fill="#1a1a1a" stroke="#d4af37" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="290" y="310" font-family="Arial" font-size="8" fill="#d4af37" text-anchor="middle">Нет</text>
+  
+  <!-- Стрелка направления -->
+  <path d="M 300 320 L 640 320" stroke="#d4af37" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#d4af37"/>
+    </marker>
+  </defs>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="20" fill="#1c261f" text-anchor="middle" font-weight="bold">Поезд и станция</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Ты не знаешь, когда нужно затормозить</text>
+</svg>
+
+
+
+

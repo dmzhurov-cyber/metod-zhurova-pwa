@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#ebe8e1"/>
+  <text x="80" y="90" font-family="Arial, sans-serif" font-size="28" fill="#1c261f">Карта триггеров</text>
+
+  <rect x="80" y="120" width="1040" height="600" rx="20" fill="none" stroke="#1c261f" stroke-width="3"/>
+  <circle cx="240" cy="260" r="70" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <text x="190" y="270" font-family="Arial" font-size="18" fill="#1c261f">Тело</text>
+  <circle cx="520" cy="260" r="70" fill="none" stroke="#8fae88" stroke-width="6"/>
+  <text x="470" y="270" font-family="Arial" font-size="18" fill="#1c261f">Голова</text>
+  <circle cx="800" cy="260" r="70" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <text x="745" y="270" font-family="Arial" font-size="18" fill="#1c261f">Ситуация</text>
+  <circle cx="380" cy="520" r="70" fill="none" stroke="#8fae88" stroke-width="6"/>
+  <text x="300" y="530" font-family="Arial" font-size="18" fill="#1c261f">Решение</text>
+  <circle cx="660" cy="520" r="70" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <text x="600" y="530" font-family="Arial" font-size="18" fill="#1c261f">Динамика</text>
+  <line x1="310" y1="260" x2="450" y2="260" stroke="#8a93a6" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="590" y1="260" x2="730" y2="260" stroke="#8a93a6" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="520" y1="330" x2="420" y2="450" stroke="#8a93a6" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="520" y1="330" x2="620" y2="450" stroke="#8a93a6" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="520" y="720" text-anchor="middle" font-family="Arial" font-size="16" fill="#8fae88">Связь триггера → действие → контроль</text>
+</svg>

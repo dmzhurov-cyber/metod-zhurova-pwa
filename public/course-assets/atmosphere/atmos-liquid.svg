@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="Lbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03080c"/>
+      <stop offset="45%" stop-color="#0a1520"/>
+      <stop offset="100%" stop-color="#020508"/>
+    </linearGradient>
+    <radialGradient id="Lg1" cx="22%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#00a8b8" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="Lg2" cx="88%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#99f7ff" stop-opacity="0.14"/>
+      <stop offset="70%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="Lg3" cx="50%" cy="92%" r="50%">
+      <stop offset="0%" stop-color="#0d3d48" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="Lf" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="1400" fill="url(#Lbg)"/>
+  <rect width="800" height="1400" fill="url(#Lg1)"/>
+  <rect width="800" height="1400" fill="url(#Lg2)"/>
+  <rect width="800" height="1400" fill="url(#Lg3)"/>
+  <!-- 2>;=K �Q<:>AB8� -->
+  <path filter="url(#Lf)" fill="none" stroke="#00f1fe" stroke-opacity="0.12" stroke-width="2"
+    d="M-40 420 Q200 380 400 420 T840 400"/>
+  <path filter="url(#Lf)" fill="none" stroke="#99f7ff" stroke-opacity="0.1" stroke-width="1.5"
+    d="M-40 520 Q220 460 440 520 T840 500"/>
+  <ellipse cx="400" cy="680" rx="320" ry="180" fill="#061018" opacity="0.55"/>
+  <ellipse cx="400" cy="700" rx="280" ry="140" fill="url(#Lg3)" opacity="0.4"/>
+</svg>

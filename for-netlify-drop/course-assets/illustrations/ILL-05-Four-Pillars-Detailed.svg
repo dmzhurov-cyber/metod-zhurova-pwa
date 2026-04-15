@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="goldGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="600" fill="#ebe8e1"/>
+  
+  <!-- Столп 1: Осознанность - Глаза -->
+  <circle cx="150" cy="300" r="60" fill="#8fae88" opacity="0.2" stroke="#8fae88" stroke-width="3"/>
+  <circle cx="130" cy="290" r="15" fill="#1c261f"/>
+  <circle cx="170" cy="290" r="15" fill="#1c261f"/>
+  <text x="150" y="380" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Осознанность</text>
+  <text x="150" y="400" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Твои глаза</text>
+  
+  <!-- Столп 2: Дыхание - Руль -->
+  <circle cx="300" cy="300" r="60" fill="#6d9a8f" opacity="0.2" stroke="#6d9a8f" stroke-width="3"/>
+  <circle cx="300" cy="300" r="40" fill="none" stroke="#1c261f" stroke-width="4"/>
+  <line x1="300" y1="260" x2="300" y2="300" stroke="#1c261f" stroke-width="4"/>
+  <text x="300" y="380" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Дыхание</text>
+  <text x="300" y="400" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Твой руль</text>
+  
+  <!-- Столп 3: Расслабление - Якорь -->
+  <circle cx="500" cy="300" r="60" fill="#8b6f47" opacity="0.2" stroke="#8b6f47" stroke-width="3"/>
+  <path d="M 500 250 L 480 320 L 500 310 L 520 320 Z" fill="#1c261f"/>
+  <line x1="500" y1="250" x2="500" y2="240" stroke="#1c261f" stroke-width="3"/>
+  <text x="500" y="380" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Расслабление</text>
+  <text x="500" y="400" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Твой якорь</text>
+  
+  <!-- Столп 4: Управление - Сила -->
+  <circle cx="650" cy="300" r="60" fill="#ff6b35" opacity="0.2" stroke="#ff6b35" stroke-width="3"/>
+  <path d="M 620 280 L 650 250 L 680 280 L 650 300 Z" fill="url(#goldGrad5)"/>
+  <text x="650" y="380" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Управление</text>
+  <text x="650" y="400" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Твоя сила</text>
+  
+  <!-- Связи между столпами -->
+  <line x1="210" y1="300" x2="240" y2="300" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  <line x1="360" y1="300" x2="440" y2="300" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  <line x1="560" y1="300" x2="590" y2="300" stroke="#d4af37" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="22" fill="#1c261f" text-anchor="middle" font-weight="bold">Четыре столпа мастерства</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Глаза. Руль. Якорь. Сила.</text>
+</svg>
+
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/>
+      <stop offset="55%" stop-color="#0a0f14"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#99f7ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#00f1fe" stop-opacity="0.28"/><stop offset="70%" stop-color="#99f7ff" stop-opacity="0.05"/><stop offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgGrad)"/>
+
+  <path d="M 40 145.3 L 44 143.7 L 48 141.3 L 52 138.1 L 56 134.3 L 60 130.0 L 64 125.2 L 68 120.3 L 72 115.2 L 76 110.3 L 80 105.6 L 84 101.3 L 88 97.6 L 92 94.5 L 96 92.1 L 100 90.6 L 104 90.0 L 108 90.3 L 112 91.5 L 116 93.5 L 120 96.4 L 124 99.9 L 128 104.0 L 132 108.6 L 136 113.5 L 140 118.5 L 144 123.5 L 148 128.3 L 152 132.8 L 156 136.8 L 160 140.2 L 164 142.9 L 168 144.8 L 172 145.8 L 176 145.9 L 180 145.2 L 184 143.5 L 188 141.0 L 192 137.8 L 196 133.9 L 200 129.5 L 204 124.8 L 208 119.8 L 212 114.8 L 216 109.9 L 220 105.2 L 224 100.9 L 228 97.2 L 232 94.2 L 236 92.0 L 240 90.5 L 244 90.0 L 248 90.4 L 252 91.6 L 256 93.8 L 260 96.7 L 264 100.3 L 268 104.4 L 272 109.0 L 276 113.9 L 280 118.9 L 284 123.9 L 288 128.7 L 292 133.2 L 296 137.2 L 300 140.5 L 304 143.1 L 308 144.9 L 312 145.9 L 316 145.9 L 320 145.0 L 324 143.3 L 328 140.7 L 332 137.5 L 336 133.5 L 340 129.1 L 344 124.3 L 348 119.3 L 352 114.3 L 356 109.4 L 360 104.8" fill="none" stroke="#00f1fe" stroke-width="2" opacity="0.65" filter="url(#soft)"/>
+  <text x="120" y="188" text-anchor="middle" fill="#5dcf8c" font-family="system-ui,sans-serif" font-size="22" font-weight="700" opacity="0.85">4</text>
+  <text x="200" y="188" text-anchor="middle" fill="#5dcf8c" font-family="system-ui,sans-serif" font-size="22" font-weight="700" opacity="0.85">7</text>
+  <text x="280" y="188" text-anchor="middle" fill="#5dcf8c" font-family="system-ui,sans-serif" font-size="22" font-weight="700" opacity="0.85">8</text>
+  <text x="200" y="214" text-anchor="middle" fill="rgba(234,238,246,0.22)" font-family="system-ui,sans-serif" font-size="8" letter-spacing="0.12em">ВДОХ · ПАУЗА · ВЫДОХ</text>
+  <rect x="48" y="220" width="18" height="28" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="80" y="207" width="18" height="41" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="112" y="194" width="18" height="54" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <rect x="144" y="221" width="18" height="27" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="176" y="208" width="18" height="40" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="208" y="195" width="18" height="53" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <text x="380" y="248" text-anchor="end" fill="rgba(234,238,246,0.22)" font-family="system-ui,Segoe UI,sans-serif" font-size="9" font-weight="600" letter-spacing="0.12em">06</text>
+</svg>

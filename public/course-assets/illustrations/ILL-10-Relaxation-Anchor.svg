@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6d9a8f;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#8fae88;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="600" height="700" fill="#ebe8e1"/>
+  
+  <!-- Вода (возбуждение) -->
+  <rect x="0" y="400" width="600" height="300" fill="url(#waterGrad)"/>
+  
+  <!-- Корабль (ты) -->
+  <path d="M 200 350 L 300 300 L 400 350 L 400 380 L 200 380 Z" fill="#8b6f47" stroke="#1c261f" stroke-width="2"/>
+  <rect x="250" y="300" width="100" height="50" fill="#8fae88" opacity="0.7"/>
+  
+  <!-- Якорь -->
+  <path d="M 300 380 L 300 500" stroke="#d4af37" stroke-width="4"/>
+  <path d="M 280 500 L 320 500 L 300 530 L 280 500" fill="#d4af37" stroke="#1c261f" stroke-width="2"/>
+  <circle cx="300" cy="480" r="8" fill="#d4af37"/>
+  
+  <!-- Волны (успокоенные) -->
+  <path d="M 0 400 Q 150 380, 300 400 T 600 400" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Текст -->
+  <text x="300" y="100" font-family="Georgia, serif" font-size="24" fill="#1c261f" text-anchor="middle" font-weight="bold">Расслабление</text>
+  <text x="300" y="130" font-family="Georgia, serif" font-size="16" fill="#666" text-anchor="middle">Твой якорь. С ним ты устойчив.</text>
+  <text x="300" y="160" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Без него тебя уносит</text>
+</svg>
+
+
+
+

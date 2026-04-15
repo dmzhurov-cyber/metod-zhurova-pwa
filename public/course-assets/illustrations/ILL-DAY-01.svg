@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/>
+      <stop offset="55%" stop-color="#0a0f14"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#99f7ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#00f1fe" stop-opacity="0.28"/><stop offset="70%" stop-color="#99f7ff" stop-opacity="0.05"/><stop offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgGrad)"/>
+
+  
+  <circle cx="300" cy="118" r="88" fill="url(#glow)" opacity="0.85"/>
+  <circle cx="300" cy="118" r="60" fill="none" stroke="rgba(234,238,246,0.22)" stroke-width="1" stroke-dasharray="4 7" opacity="0.65"/>
+  <circle cx="300" cy="118" r="28" fill="none" stroke="#99f7ff" stroke-width="1.1" opacity="0.3" filter="url(#soft)"/>
+  <circle cx="338.4" cy="124.6" r="4" fill="none" stroke="#99f7ff" stroke-width="1.2" opacity="0.4"/>
+  <circle cx="313.5" cy="154.6" r="5" fill="none" stroke="#99f7ff" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="275.1" cy="148.0" r="6" fill="none" stroke="#99f7ff" stroke-width="1.2" opacity="0.6000000000000001"/>
+  <circle cx="261.6" cy="111.4" r="4" fill="none" stroke="#99f7ff" stroke-width="1.2" opacity="0.7000000000000001"/>
+  <circle cx="286.5" cy="81.4" r="5" fill="none" stroke="#99f7ff" stroke-width="1.2" opacity="0.4"/>
+  <circle cx="324.9" cy="88.0" r="6" fill="none" stroke="#99f7ff" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 255 118 Q 300 96.55 345 118" fill="none" stroke="#00f1fe" stroke-width="0.9" opacity="0.22"/>
+  <rect x="48" y="146" width="36" height="72" rx="10" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1.2"/>
+  <rect x="54" y="154" width="24" height="44" rx="6" fill="url(#barGrad)" opacity="0.5"/>
+  <rect x="100" y="130" width="36" height="88" rx="10" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1.2"/>
+  <rect x="106" y="138" width="24" height="60" rx="6" fill="url(#barGrad)" opacity="0.5"/>
+  <rect x="152" y="114" width="36" height="104" rx="10" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1.2"/>
+  <rect x="158" y="122" width="24" height="76" rx="6" fill="url(#barGrad)" opacity="0.5"/>
+  <text x="380" y="248" text-anchor="end" fill="rgba(234,238,246,0.22)" font-family="system-ui,Segoe UI,sans-serif" font-size="9" font-weight="600" letter-spacing="0.12em">01</text>
+</svg>

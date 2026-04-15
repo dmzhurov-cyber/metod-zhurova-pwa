@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="Vbg" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/>
+      <stop offset="100%" stop-color="#030508"/>
+    </linearGradient>
+    <radialGradient id="V1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#99f7ff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="V2" cx="75%" cy="60%" r="45%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1400" fill="url(#Vbg)"/>
+  <ellipse cx="200" cy="400" rx="280" ry="160" fill="url(#V1)" opacity="0.7"/>
+  <ellipse cx="580" cy="700" rx="320" ry="200" fill="url(#V2)" opacity="0.65"/>
+  <ellipse cx="420" cy="1100" rx="360" ry="220" fill="url(#V1)" opacity="0.5"/>
+  <g opacity="0.15" fill="#eaeef6">
+    <ellipse cx="150" cy="300" rx="120" ry="40" transform="rotate(-12 150 300)"/>
+    <ellipse cx="500" cy="500" rx="180" ry="55" transform="rotate(8 500 500)"/>
+    <ellipse cx="320" cy="900" rx="200" ry="60" transform="rotate(-6 320 900)"/>
+  </g>
+</svg>

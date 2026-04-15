@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="wheelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6d9a8f;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#6d9a8f;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="600" height="600" fill="#ebe8e1"/>
+  
+  <!-- Руль -->
+  <circle cx="300" cy="300" r="120" fill="url(#wheelGradient)" stroke="#6d9a8f" stroke-width="6"/>
+  <circle cx="300" cy="300" r="100" fill="none" stroke="#1c261f" stroke-width="4"/>
+  
+  <!-- Спицы руля -->
+  <line x1="300" y1="180" x2="300" y2="420" stroke="#1c261f" stroke-width="3"/>
+  <line x1="180" y1="300" x2="420" y2="300" stroke="#1c261f" stroke-width="3"/>
+  <line x1="220" y1="220" x2="380" y2="380" stroke="#1c261f" stroke-width="2"/>
+  <line x1="380" y1="220" x2="220" y2="380" stroke="#1c261f" stroke-width="2"/>
+  
+  <!-- Центр руля -->
+  <circle cx="300" cy="300" r="30" fill="#6d9a8f" stroke="#1c261f" stroke-width="3"/>
+  <text x="300" y="310" font-family="Arial, sans-serif" font-size="14" fill="#1c261f" text-anchor="middle" font-weight="bold">ДЫХАНИЕ</text>
+  
+  <!-- Волны дыхания вокруг -->
+  <path d="M 100 300 Q 200 250, 300 300 T 500 300" stroke="#6d9a8f" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 100 300 Q 200 350, 300 300 T 500 300" stroke="#6d9a8f" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Текст -->
+  <text x="300" y="500" font-family="Georgia, serif" font-size="24" fill="#1c261f" text-anchor="middle" font-weight="bold">Дыхание</text>
+  <text x="300" y="530" font-family="Georgia, serif" font-size="16" fill="#666" text-anchor="middle">Твой руль. С ним ты управляешь.</text>
+</svg>
+
+
+
+

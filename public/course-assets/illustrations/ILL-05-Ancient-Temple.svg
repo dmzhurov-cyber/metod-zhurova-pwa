@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="marbleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ebe8e1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0d0d0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="600" fill="#ebe8e1"/>
+  
+  <!-- Основание храма -->
+  <rect x="100" y="400" width="600" height="150" fill="url(#marbleGradient)" stroke="#1c261f" stroke-width="2"/>
+  
+  <!-- Четыре колонны -->
+  <!-- Колонна 1 -->
+  <rect x="200" y="200" width="60" height="200" fill="url(#marbleGradient)" stroke="#d4af37" stroke-width="2"/>
+  <ellipse cx="230" cy="200" rx="30" ry="15" fill="url(#goldGrad4)"/>
+  <text x="230" y="320" font-family="Georgia, serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Осознанность</text>
+  
+  <!-- Колонна 2 -->
+  <rect x="300" y="200" width="60" height="200" fill="url(#marbleGradient)" stroke="#d4af37" stroke-width="2"/>
+  <ellipse cx="330" cy="200" rx="30" ry="15" fill="url(#goldGrad4)"/>
+  <text x="330" y="320" font-family="Georgia, serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Дыхание</text>
+  
+  <!-- Колонна 3 -->
+  <rect x="440" y="200" width="60" height="200" fill="url(#marbleGradient)" stroke="#d4af37" stroke-width="2"/>
+  <ellipse cx="470" cy="200" rx="30" ry="15" fill="url(#goldGrad4)"/>
+  <text x="470" y="320" font-family="Georgia, serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Расслабление</text>
+  
+  <!-- Колонна 4 -->
+  <rect x="540" y="200" width="60" height="200" fill="url(#marbleGradient)" stroke="#d4af37" stroke-width="2"/>
+  <ellipse cx="570" cy="200" rx="30" ry="15" fill="url(#goldGrad4)"/>
+  <text x="570" y="320" font-family="Georgia, serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Управление</text>
+  
+  <!-- Крыша -->
+  <polygon points="150,200 400,100 650,200 600,200 400,130 200,200" fill="url(#goldGrad4)" stroke="#1c261f" stroke-width="2"/>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="22" fill="#1c261f" text-anchor="middle" font-weight="bold">Древний храм</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Четыре колонны. Прочные. Незыблемые.</text>
+</svg>
+
+
+
+

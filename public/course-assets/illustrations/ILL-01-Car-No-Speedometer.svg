@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="roadGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="500" fill="#ebe8e1"/>
+  
+  <!-- Горы на заднем плане -->
+  <polygon points="0,200 150,100 300,150 450,80 600,120 750,90 800,130 800,500 0,500" fill="#e0e0e0" opacity="0.5"/>
+  
+  <!-- Дорога -->
+  <rect x="0" y="300" width="800" height="200" fill="url(#roadGradient)"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#d4af37" stroke-width="2" stroke-dasharray="20,10"/>
+  
+  <!-- Крутой поворот -->
+  <path d="M 400 400 Q 500 350 600 400" stroke="#d4af37" stroke-width="3" fill="none" opacity="0.5"/>
+  
+  <!-- Автомобиль -->
+  <rect x="200" y="360" width="120" height="60" rx="5" fill="#8fae88" opacity="0.8"/>
+  <rect x="210" y="370" width="100" height="40" fill="#2a4a8a"/>
+  
+  <!-- Отсутствие спидометра (пустое место) -->
+  <circle cx="250" cy="390" r="15" fill="#1a1a1a" stroke="#d4af37" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="250" y="395" font-family="Arial" font-size="10" fill="#d4af37" text-anchor="middle">?</text>
+  
+  <!-- Предупреждающий знак -->
+  <polygon points="650,250 700,250 725,280 700,310 650,310 625,280" fill="#ff6b35" stroke="#d4af37" stroke-width="2"/>
+  <text x="675" y="285" font-family="Arial" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">!</text>
+  
+  <!-- Текст -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="20" fill="#1c261f" text-anchor="middle" font-weight="bold">Машина без спидометра</text>
+  <text x="400" y="80" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Ты не знаешь, на какой скорости. Ты не знаешь, когда нужно замедлиться.</text>
+</svg>
+
+
+
+

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="beforeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c261f;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1a2a40;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="afterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="500" fill="#ebe8e1"/>
+  
+  <!-- ДО (слева) -->
+  <rect x="50" y="150" width="300" height="300" fill="url(#beforeGradient)" stroke="#1c261f" stroke-width="3" rx="10"/>
+  <text x="200" y="190" font-family="Georgia, serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">ДО</text>
+  
+  <!-- Силуэт - сгорбленный, одинокий -->
+  <ellipse cx="200" cy="350" rx="40" ry="60" fill="#2a3a50" opacity="0.7"/>
+  <line x1="200" y1="350" x2="180" y2="330" stroke="#d4af37" stroke-width="2" opacity="0.3"/>
+  <text x="200" y="420" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Отчаяние</text>
+  <text x="200" y="440" font-family="Arial, sans-serif" font-size="11" fill="#d4af37" text-anchor="middle">Нет контроля</text>
+  
+  <!-- ПОСЛЕ (справа) -->
+  <rect x="450" y="150" width="300" height="300" fill="url(#afterGradient)" stroke="#d4af37" stroke-width="3" rx="10"/>
+  <text x="600" y="190" font-family="Georgia, serif" font-size="20" fill="#1c261f" text-anchor="middle" font-weight="bold">ПОСЛЕ</text>
+  
+  <!-- Силуэт - уверенный, сильный -->
+  <ellipse cx="600" cy="350" rx="50" ry="70" fill="#ffffff" opacity="0.9"/>
+  <line x1="600" y1="350" x2="600" y2="280" stroke="#1c261f" stroke-width="3"/>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Уверенность</text>
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="11" fill="#1c261f" text-anchor="middle">Полный контроль</text>
+  
+  <!-- Стрелка трансформации -->
+  <path d="M 350 300 L 450 300" stroke="#d4af37" stroke-width="4" fill="none" marker-end="url(#arrowTransform)"/>
+  <defs>
+    <marker id="arrowTransform" markerWidth="12" markerHeight="12" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#d4af37"/>
+    </marker>
+  </defs>
+  <text x="400" y="290" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Трансформация</text>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="24" fill="#1c261f" text-anchor="middle" font-weight="bold">До и после</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Ты изменился. Ты стал мастером.</text>
+</svg>
+
+
+
+

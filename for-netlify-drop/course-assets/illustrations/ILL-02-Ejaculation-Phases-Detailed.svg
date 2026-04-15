@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="phase1Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="phase2Gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d32f2f;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d32f2f;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="600" fill="#ebe8e1"/>
+  
+  <!-- Временная линия -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#1c261f" stroke-width="3"/>
+  
+  <!-- Фаза 1: Эмиссия -->
+  <rect x="200" y="300" width="200" height="100" fill="url(#phase1Gradient)" stroke="#ff6b35" stroke-width="2"/>
+  <text x="300" y="330" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Фаза 1: Эмиссия</text>
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="12" fill="#1c261f" text-anchor="middle">Подготовительная</text>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="11" fill="#1c261f" text-anchor="middle">Еще можно остановить</text>
+  
+  <!-- Фаза 2: Изгнание -->
+  <rect x="400" y="300" width="200" height="100" fill="url(#phase2Gradient)" stroke="#d32f2f" stroke-width="2"/>
+  <text x="500" y="330" font-family="Georgia, serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">Фаза 2: Изгнание</text>
+  <text x="500" y="350" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Выброс</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="11" fill="#ffffff" text-anchor="middle">Необратимо</text>
+  
+  <!-- Точки контроля -->
+  <circle cx="200" cy="400" r="8" fill="#6d9a8f"/>
+  <text x="200" y="425" font-family="Arial, sans-serif" font-size="10" fill="#1c261f" text-anchor="middle">До фазы 1</text>
+  <text x="200" y="440" font-family="Arial, sans-serif" font-size="9" fill="#666" text-anchor="middle">Полный контроль</text>
+  
+  <circle cx="300" cy="400" r="8" fill="#ff6b35"/>
+  <text x="300" y="425" font-family="Arial, sans-serif" font-size="10" fill="#1c261f" text-anchor="middle">Во время фазы 1</text>
+  <text x="300" y="440" font-family="Arial, sans-serif" font-size="9" fill="#666" text-anchor="middle">Действуй быстро</text>
+  
+  <circle cx="500" cy="400" r="8" fill="#d32f2f"/>
+  <text x="500" y="425" font-family="Arial, sans-serif" font-size="10" fill="#1c261f" text-anchor="middle">Фаза 2</text>
+  <text x="500" y="440" font-family="Arial, sans-serif" font-size="9" fill="#666" text-anchor="middle">Необратимо</text>
+  
+  <!-- Стрелка времени -->
+  <path d="M 100 400 L 700 400" stroke="#d4af37" stroke-width="2" fill="none" marker-end="url(#arrowTime)"/>
+  <defs>
+    <marker id="arrowTime" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#d4af37"/>
+    </marker>
+  </defs>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="22" fill="#1c261f" text-anchor="middle" font-weight="bold">Две фазы эякуляции</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Понимание фаз дает тебе точки контроля</text>
+</svg>
+
+
+
+

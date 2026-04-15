@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img" aria-label="">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/><stop offset="100%" stop-color="#0c1218"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <text x="310" y="36" text-anchor="middle" fill="#99f7ff" font-family="system-ui,Segoe UI,sans-serif" font-size="15" font-weight="700" letter-spacing="0.06em">ШКАЛА ВОЗБУЖДЕНИЯ 0–100%</text>
+
+  <text x="88" y="68" text-anchor="middle" fill="#9aa3b0" font-family="system-ui,sans-serif" font-size="10" font-weight="600">0%</text>
+  <text x="88" y="348" text-anchor="middle" fill="#9aa3b0" font-family="system-ui,sans-serif" font-size="10" font-weight="600">100%</text>
+  <rect x="72" y="80" width="36" height="252" rx="8" fill="rgba(10,15,20,0.9)" stroke="#99f7ff" stroke-width="1"/>
+  <rect x="76" y="282" width="28" height="50" fill="#5dcf8c" fill-opacity="0.88"/>
+<rect x="76" y="206" width="28" height="76" fill="#5b9fd4" fill-opacity="0.88"/>
+<rect x="76" y="156" width="28" height="50" fill="#ffb74d" fill-opacity="0.88"/>
+<rect x="76" y="93" width="28" height="63" fill="#ff6b6b" fill-opacity="0.88"/>
+<rect x="76" y="80" width="28" height="13" fill="#b388ff" fill-opacity="0.88"/>
+
+    <text x="130" y="95" fill="#5dcf8c" font-family="system-ui,Segoe UI,sans-serif" font-size="11" text-anchor="start" font-weight="600">Зелёная зона 0–20%</text>
+    <text x="130" y="112" fill="#9aa3b0" font-family="system-ui,Segoe UI,sans-serif" font-size="9" text-anchor="start" >Спокойствие, полный контроль</text>
+    <text x="130" y="148" fill="#7ec8e8" font-family="system-ui,Segoe UI,sans-serif" font-size="11" text-anchor="start" font-weight="600">Синяя зона 20–50%</text>
+    <text x="130" y="165" fill="#9aa3b0" font-family="system-ui,Segoe UI,sans-serif" font-size="9" text-anchor="start" >Комфортное возбуждение · практика</text>
+    <text x="130" y="201" fill="#ffb74d" font-family="system-ui,Segoe UI,sans-serif" font-size="11" text-anchor="start" font-weight="600">Жёлтая зона 50–70%</text>
+    <text x="130" y="218" fill="#9aa3b0" font-family="system-ui,Segoe UI,sans-serif" font-size="9" text-anchor="start" >Нужен контроль и калибровка</text>
+    <text x="130" y="254" fill="#ff6b6b" font-family="system-ui,Segoe UI,sans-serif" font-size="11" text-anchor="start" font-weight="600">Красная зона 70–95%</text>
+    <text x="130" y="271" fill="#9aa3b0" font-family="system-ui,Segoe UI,sans-serif" font-size="9" text-anchor="start" >Срочные меры: стоп, дыхание</text>
+    <text x="130" y="307" fill="#d4b3ff" font-family="system-ui,Segoe UI,sans-serif" font-size="11" text-anchor="start" font-weight="600">ПОНР 95%+</text>
+    <text x="130" y="324" fill="#9aa3b0" font-family="system-ui,Segoe UI,sans-serif" font-size="9" text-anchor="start" >Точка невозврата — остановись раньше</text>
+
+  <rect x="130" y="348" width="460" height="52" rx="12" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1"/>
+    <text x="360" y="372" fill="#eaeef6" font-family="system-ui,Segoe UI,sans-serif" font-size="9" text-anchor="middle" >Правило 70%: останавливайся до 70% · цель тренировки — точность ±10%</text>
+
+</svg>

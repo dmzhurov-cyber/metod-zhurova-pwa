@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: #1c261f;">
+  <!-- Премиум минимализм стиль -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Комната - темный фон -->
+  <rect x="0" y="0" width="800" height="600" fill="#1c261f"/>
+  
+  <!-- Окно с лунным светом -->
+  <rect x="600" y="50" width="150" height="200" fill="#1a2a40" stroke="#d4af37" stroke-width="2" opacity="0.3"/>
+  <rect x="610" y="60" width="130" height="180" fill="#2a3a50" opacity="0.2"/>
+  
+  <!-- Кровать -->
+  <rect x="100" y="350" width="500" height="200" fill="#1a2a40" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Два силуэта в постели -->
+  <!-- Силуэт 1 (справа, отдаляется) -->
+  <ellipse cx="550" cy="420" rx="40" ry="60" fill="#2a3a50" opacity="0.6"/>
+  <line x1="550" y1="420" x2="580" y2="400" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Силуэт 2 (слева, одинокий) -->
+  <ellipse cx="200" cy="420" rx="50" ry="70" fill="#3a4a60" opacity="0.7"/>
+  <line x1="200" y1="420" x2="170" y2="400" stroke="#d4af37" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Дистанция между ними -->
+  <line x1="250" y1="420" x2="510" y2="420" stroke="#d4af37" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  
+  <!-- Часы на тумбочке -->
+  <circle cx="100" cy="320" r="25" fill="#1a2a40" stroke="#d4af37" stroke-width="1"/>
+  <line x1="100" y1="320" x2="100" y2="305" stroke="#d4af37" stroke-width="1"/>
+  <line x1="100" y1="320" x2="112" y2="320" stroke="#d4af37" stroke-width="1"/>
+  
+  <!-- Текст -->
+  <text x="400" y="100" font-family="Georgia, serif" font-size="24" fill="#d4af37" text-anchor="middle" opacity="0.8">МОМЕНТ ИСТИНЫ</text>
+  <text x="400" y="130" font-family="Georgia, serif" font-size="14" fill="#d4af37" text-anchor="middle" opacity="0.6">Тишина. Дистанция. Отчаяние.</text>
+</svg>
+
+
+
+

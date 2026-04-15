@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/>
+      <stop offset="55%" stop-color="#0a0f14"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#99f7ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#00f1fe" stop-opacity="0.28"/><stop offset="70%" stop-color="#99f7ff" stop-opacity="0.05"/><stop offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgGrad)"/>
+<line x1="200" y1="125" x2="200" y2="37" stroke="#99f7ff" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="200" cy="37" r="18" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1"/>
+  <text x="200" y="41" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="9" font-weight="700">Т</text>
+  <line x1="200" y1="125" x2="287.49719949915414" y2="97.80650449500463" stroke="#99f7ff" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="287.49719949915414" cy="97.80650449500463" r="18" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1"/>
+  <text x="287.49719949915414" y="101.80650449500463" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="9" font-weight="700">Г</text>
+  <line x1="200" y1="125" x2="254.07624321090753" y2="196.19349550499538" stroke="#99f7ff" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="254.07624321090753" cy="196.19349550499538" r="18" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1"/>
+  <text x="254.07624321090753" y="200.19349550499538" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="9" font-weight="700">С</text>
+  <line x1="200" y1="125" x2="145.92375678909247" y2="196.19349550499538" stroke="#99f7ff" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="145.92375678909247" cy="196.19349550499538" r="18" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1"/>
+  <text x="145.92375678909247" y="200.19349550499538" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="9" font-weight="700">Р</text>
+  <line x1="200" y1="125" x2="112.50280050084586" y2="97.80650449500465" stroke="#99f7ff" stroke-width="0.8" opacity="0.25"/>
+  <circle cx="112.50280050084586" cy="97.80650449500465" r="18" fill="rgba(153,247,255,0.08)" stroke="#99f7ff" stroke-width="1"/>
+  <text x="112.50280050084586" y="101.80650449500465" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="9" font-weight="700">Д</text>
+  <circle cx="200" cy="125" r="26" fill="rgba(255,107,107,0.12)" stroke="#ff6b6b" stroke-width="1.6"/>
+  <text x="200" y="129" text-anchor="middle" fill="#ff6b6b" font-family="system-ui,sans-serif" font-size="9" font-weight="700">П</text>
+  <rect x="48" y="205" width="18" height="33" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="78" y="192" width="18" height="46" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="108" y="179" width="18" height="59" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <rect x="138" y="206" width="18" height="32" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="168" y="193" width="18" height="45" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="198" y="180" width="18" height="58" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <rect x="228" y="207" width="18" height="31" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="258" y="194" width="18" height="44" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <text x="380" y="248" text-anchor="end" fill="rgba(234,238,246,0.22)" font-family="system-ui,Segoe UI,sans-serif" font-size="9" font-weight="600" letter-spacing="0.12em">11</text>
+</svg>

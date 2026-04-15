@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="Fbg" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#050a08"/>
+      <stop offset="40%" stop-color="#0c1512"/>
+      <stop offset="100%" stop-color="#020403"/>
+    </linearGradient>
+    <linearGradient id="Fmist" x1="0%" y1="70%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99f7ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6d9086" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a1512" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1400" fill="url(#Fbg)"/>
+  <!-- BC<0==K5 ?>;>AK -->
+  <rect width="800" height="1400" fill="url(#Fmist)"/>
+  <g fill="#030806" opacity="0.85">
+    <path d="M-20 900 L120 520 L180 900 Z"/>
+    <path d="M80 920 L240 440 L320 920 Z"/>
+    <path d="M200 900 L380 380 L460 900 Z"/>
+    <path d="M340 920 L520 480 L600 920 Z"/>
+    <path d="M480 900 L640 400 L720 900 Z"/>
+    <path d="M600 920 L780 520 L840 920 Z"/>
+  </g>
+  <g fill="none" stroke="#99f7ff" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 720 Q400 680 800 700"/>
+    <path d="M0 800 Q400 760 800 780"/>
+  </g>
+  <rect width="800" height="1400" fill="url(#Fmist)" opacity="0.6"/>
+</svg>

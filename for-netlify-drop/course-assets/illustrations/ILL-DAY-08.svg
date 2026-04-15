@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="">
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a0e"/>
+      <stop offset="55%" stop-color="#0a0f14"/>
+      <stop offset="100%" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00f1fe" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#99f7ff" stop-opacity="0.15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#00f1fe" stop-opacity="0.28"/><stop offset="70%" stop-color="#99f7ff" stop-opacity="0.05"/><stop offset="100%" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgGrad)"/>
+<circle cx="48" cy="118" r="26" fill="#5dcf8c" fill-opacity="0.2" stroke="#5dcf8c" stroke-width="1.8"/>
+  <text x="48" y="123" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="11" font-weight="700">1</text>
+  <line x1="74" y1="118" x2="96" y2="118" stroke="rgba(234,238,246,0.22)" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="122" cy="118" r="26" fill="#4ecdc4" fill-opacity="0.2" stroke="#4ecdc4" stroke-width="1.8"/>
+  <text x="122" y="123" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="11" font-weight="700">2</text>
+  <line x1="148" y1="118" x2="170" y2="118" stroke="rgba(234,238,246,0.22)" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="196" cy="118" r="26" fill="#ffb74d" fill-opacity="0.2" stroke="#ffb74d" stroke-width="1.8"/>
+  <text x="196" y="123" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="11" font-weight="700">3</text>
+  <line x1="222" y1="118" x2="244" y2="118" stroke="rgba(234,238,246,0.22)" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="270" cy="118" r="26" fill="#ff6b6b" fill-opacity="0.2" stroke="#ff6b6b" stroke-width="1.8"/>
+  <text x="270" y="123" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="11" font-weight="700">4</text>
+  <line x1="296" y1="118" x2="318" y2="118" stroke="rgba(234,238,246,0.22)" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="344" cy="118" r="26" fill="#5dcf8c" fill-opacity="0.2" stroke="#5dcf8c" stroke-width="1.8"/>
+  <text x="344" y="123" text-anchor="middle" fill="#eaeef6" font-family="system-ui,sans-serif" font-size="11" font-weight="700">5</text>
+  <rect x="52" y="198" width="20" height="30" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="82" y="185" width="20" height="43" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="112" y="172" width="20" height="56" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <rect x="142" y="199" width="20" height="29" rx="3" fill="url(#barGrad)" opacity="0.22"/>
+  <rect x="172" y="186" width="20" height="42" rx="3" fill="url(#barGrad)" opacity="0.33999999999999997"/>
+  <rect x="202" y="173" width="20" height="55" rx="3" fill="url(#barGrad)" opacity="0.45999999999999996"/>
+  <text x="380" y="248" text-anchor="end" fill="rgba(234,238,246,0.22)" font-family="system-ui,Segoe UI,sans-serif" font-size="9" font-weight="600" letter-spacing="0.12em">08</text>
+</svg>

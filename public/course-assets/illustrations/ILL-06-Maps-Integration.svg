@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: #ebe8e1;">
+  <defs>
+    <pattern id="mapPattern1" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#6d9a8f" opacity="0.2"/>
+      <line x1="0" y1="0" x2="40" y2="40" stroke="#6d9a8f" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <pattern id="mapPattern2" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#8fae88" opacity="0.2"/>
+      <line x1="0" y1="20" x2="40" y2="20" stroke="#8fae88" stroke-width="1" opacity="0.3"/>
+    </pattern>
+    <pattern id="mapPattern3" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#ff6b35" opacity="0.2"/>
+      <circle cx="20" cy="20" r="5" fill="#ff6b35" opacity="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="600" fill="#ebe8e1"/>
+  
+  <!-- Карта 1: Рельеф (внизу) -->
+  <rect x="50" y="300" width="200" height="200" fill="url(#mapPattern1)" stroke="#6d9a8f" stroke-width="2" opacity="0.7"/>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Рельеф</text>
+  
+  <!-- Карта 2: Дороги (средний слой) -->
+  <rect x="300" y="200" width="200" height="200" fill="url(#mapPattern2)" stroke="#8fae88" stroke-width="2" opacity="0.7"/>
+  <text x="400" y="230" font-family="Arial, sans-serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Дороги</text>
+  
+  <!-- Карта 3: Города (верхний слой) -->
+  <rect x="550" y="100" width="200" height="200" fill="url(#mapPattern3)" stroke="#ff6b35" stroke-width="2" opacity="0.7"/>
+  <text x="650" y="130" font-family="Arial, sans-serif" font-size="12" fill="#1c261f" text-anchor="middle" font-weight="bold">Города</text>
+  
+  <!-- Интегрированная карта (справа) -->
+  <rect x="500" y="350" width="250" height="200" fill="#ebe8e1" stroke="#d4af37" stroke-width="3"/>
+  <rect x="510" y="360" width="230" height="180" fill="url(#mapPattern1)" opacity="0.3"/>
+  <rect x="510" y="360" width="230" height="180" fill="url(#mapPattern2)" opacity="0.3"/>
+  <rect x="510" y="360" width="230" height="180" fill="url(#mapPattern3)" opacity="0.3"/>
+  <text x="625" y="400" font-family="Georgia, serif" font-size="16" fill="#1c261f" text-anchor="middle" font-weight="bold">Единая карта</text>
+  <text x="625" y="425" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle">Все вместе</text>
+  
+  <!-- Стрелки объединения -->
+  <path d="M 250 400 L 480 450" stroke="#d4af37" stroke-width="2" fill="none" marker-end="url(#arrowMap)"/>
+  <path d="M 500 300 L 550 420" stroke="#d4af37" stroke-width="2" fill="none" marker-end="url(#arrowMap)"/>
+  <path d="M 750 200 L 650 430" stroke="#d4af37" stroke-width="2" fill="none" marker-end="url(#arrowMap)"/>
+  <defs>
+    <marker id="arrowMap" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#d4af37"/>
+    </marker>
+  </defs>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="22" fill="#1c261f" text-anchor="middle" font-weight="bold">Интеграция карт</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Когда карты объединяются, ты видишь полную картину</text>
+</svg>
+
+
+
+

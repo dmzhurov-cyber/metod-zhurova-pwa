@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: #ebe8e1;">
+  <defs>
+    <linearGradient id="diagnosisGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8fae88;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#6d9a8f;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="600" fill="#ebe8e1"/>
+  
+  <!-- Человек (силуэт) -->
+  <ellipse cx="200" cy="400" rx="60" ry="100" fill="#1c261f" opacity="0.3"/>
+  <text x="200" y="520" font-family="Arial, sans-serif" font-size="12" fill="#1c261f" text-anchor="middle">Ты</text>
+  
+  <!-- Вопрос -->
+  <ellipse cx="200" cy="250" rx="80" ry="50" fill="#ff6b35" opacity="0.2" stroke="#ff6b35" stroke-width="2"/>
+  <text x="200" y="255" font-family="Arial, sans-serif" font-size="14" fill="#1c261f" text-anchor="middle" font-weight="bold">Где проблема?</text>
+  
+  <!-- Диагностика (справа) -->
+  <rect x="400" y="200" width="350" height="300" fill="url(#diagnosisGradient)" stroke="#8fae88" stroke-width="3" rx="10"/>
+  
+  <!-- Типы ПЭ -->
+  <rect x="420" y="230" width="150" height="80" fill="#8fae88" opacity="0.5" stroke="#8fae88" stroke-width="2" rx="5"/>
+  <text x="495" y="255" font-family="Georgia, serif" font-size="14" fill="#1c261f" text-anchor="middle" font-weight="bold">Первичная ПЭ</text>
+  <text x="495" y="275" font-family="Arial, sans-serif" font-size="11" fill="#1c261f" text-anchor="middle">С самого начала</text>
+  <text x="495" y="290" font-family="Arial, sans-serif" font-size="11" fill="#1c261f" text-anchor="middle">2-5% мужчин</text>
+  
+  <rect x="580" y="230" width="150" height="80" fill="#6d9a8f" opacity="0.5" stroke="#6d9a8f" stroke-width="2" rx="5"/>
+  <text x="655" y="255" font-family="Georgia, serif" font-size="14" fill="#1c261f" text-anchor="middle" font-weight="bold">Вторичная ПЭ</text>
+  <text x="655" y="275" font-family="Arial, sans-serif" font-size="11" fill="#1c261f" text-anchor="middle">Появилась позже</text>
+  <text x="655" y="290" font-family="Arial, sans-serif" font-size="11" fill="#1c261f" text-anchor="middle">15-25% мужчин</text>
+  
+  <!-- Причины -->
+  <rect x="420" y="330" width="310" height="150" fill="#f0f0f0" stroke="#1c261f" stroke-width="1" rx="5"/>
+  <text x="575" y="355" font-family="Georgia, serif" font-size="14" fill="#1c261f" text-anchor="middle" font-weight="bold">Причины:</text>
+  <text x="440" y="380" font-family="Arial, sans-serif" font-size="11" fill="#1c261f">• Биологические (генетика, гормоны)</text>
+  <text x="440" y="400" font-family="Arial, sans-serif" font-size="11" fill="#1c261f">• Психологические (тревога, стресс)</text>
+  <text x="440" y="420" font-family="Arial, sans-serif" font-size="11" fill="#1c261f">• Поведенческие (привычки, опыт)</text>
+  <text x="440" y="440" font-family="Arial, sans-serif" font-size="11" fill="#1c261f">• Комбинация факторов</text>
+  
+  <!-- Стрелка от вопроса к диагностике -->
+  <path d="M 280 250 L 400 350" stroke="#d4af37" stroke-width="3" fill="none" marker-end="url(#arrowDiag)"/>
+  <defs>
+    <marker id="arrowDiag" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#d4af37"/>
+    </marker>
+  </defs>
+  
+  <!-- Заголовок -->
+  <text x="400" y="50" font-family="Georgia, serif" font-size="22" fill="#1c261f" text-anchor="middle" font-weight="bold">Диагностика проблемы</text>
+  <text x="400" y="75" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Где находится проблема? Где начинается решение?</text>
+</svg>
+
+
+
+

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background: #ebe8e1;">
+  <!-- Фон -->
+  <rect x="0" y="0" width="800" height="500" fill="#ebe8e1"/>
+  
+  <!-- Дорога -->
+  <rect x="0" y="300" width="800" height="200" fill="#2a2a2a"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#d4af37" stroke-width="2" stroke-dasharray="20,10"/>
+  
+  <!-- Автомобиль -->
+  <rect x="200" y="320" width="150" height="80" rx="5" fill="#8fae88"/>
+  <rect x="220" y="340" width="110" height="50" fill="#2a4a8a"/>
+  
+  <!-- Водитель с завязанными глазами -->
+  <circle cx="275" cy="365" r="20" fill="#8b6f47"/>
+  <rect x="255" y="365" width="40" height="10" fill="#1c261f" opacity="0.8"/>
+  <text x="275" y="372" font-family="Arial" font-size="8" fill="#ffffff" text-anchor="middle">XXX</text>
+  
+  <!-- Препятствия (невидимые для водителя) -->
+  <rect x="500" y="350" width="50" height="50" fill="#ff6b35" opacity="0.7"/>
+  <text x="525" y="380" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">!</text>
+  
+  <!-- Поворот (невидимый) -->
+  <path d="M 600 400 Q 700 350, 750 400" stroke="#d4af37" stroke-width="3" fill="none" opacity="0.5" stroke-dasharray="5,5"/>
+  
+  <!-- Предупреждающий текст -->
+  <text x="400" y="200" font-family="Georgia, serif" font-size="20" fill="#d32f2f" text-anchor="middle" font-weight="bold">Вождение с завязанными глазами</text>
+  <text x="400" y="230" font-family="Georgia, serif" font-size="14" fill="#666" text-anchor="middle">Ты не видишь дорогу. Ты не знаешь, где поворот, где препятствие.</text>
+</svg>
+
+
+
+

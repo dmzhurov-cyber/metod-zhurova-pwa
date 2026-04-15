@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="Bbg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#040608"/>
+      <stop offset="50%" stop-color="#0c1218"/>
+      <stop offset="100%" stop-color="#050a10"/>
+    </linearGradient>
+    <radialGradient id="Bglow" cx="70%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#99f7ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="Bglass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#99f7ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00f1fe" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1400" fill="url(#Bbg)"/>
+  <rect width="800" height="1400" fill="url(#Bglow)"/>
+  <!-- A8;CMBK :>;1 -->
+  <g opacity="0.35" stroke="#99f7ff" stroke-width="1.2" fill="url(#Bglass)">
+    <path d="M120 200 L120 380 Q120 420 160 440 L200 440 Q240 420 240 380 L240 200 L220 180 L140 180 Z"/>
+    <path d="M320 120 L320 520 L380 580 L440 520 L440 120 L400 100 Z"/>
+    <path d="M520 240 L520 460 L580 500 L640 460 L640 240 L600 220 Z"/>
+    <ellipse cx="580" cy="500" rx="60" ry="14" fill="none" stroke-opacity="0.5"/>
+  </g>
+  <g opacity="0.2" stroke="#00f1fe" stroke-width="0.8" fill="none">
+    <line x1="60" y1="320" x2="740" y2="280"/>
+    <line x1="100" y1="900" x2="720" y2="860"/>
+  </g>
+  <rect width="800" height="1400" fill="url(#Bglow)" opacity="0.4" style="mix-blend-mode: screen"/>
+</svg>
