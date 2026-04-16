@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { DiagnosticWizard } from '../components/DiagnosticWizard'
 import { PtiWizard } from '../components/PtiWizard'
 import { extendedBaselineQuestions, ptiQuestions } from '../data/diagnostics'
+import { syncInitialDiagnosticsPayload } from '../lib/reportSync'
 import { KEYS, setFlag, setJSON } from '../lib/storage'
 import { enqueueSync } from '../lib/syncQueue'
 
@@ -47,6 +48,7 @@ export function InitialDiagnostics() {
               type: 'diagnostic',
               payload: { kind: 'initial', ...payload },
             })
+            void syncInitialDiagnosticsPayload(payload)
             navigate('/app/home', { replace: true })
           }}
           onBack={() => setPhase('extended')}

@@ -1,4 +1,5 @@
 import { getJSON, setJSON } from './storage'
+import { syncCheckpointRow, syncDailyReportRow } from './reportSync'
 import { enqueueSync } from './syncQueue'
 
 export type DailyReport = {
@@ -90,6 +91,8 @@ export function markDayComplete(day: number, report?: DailyReport) {
     type: 'progress',
     payload: { event: 'day_complete', day },
   })
+  const rec = loadProgress().dailyState[day]
+  void syncDailyReportRow(day, rec)
 }
 
 export function saveCheckpointResult(row: CheckpointDiagnostic) {
@@ -98,4 +101,5 @@ export function saveCheckpointResult(row: CheckpointDiagnostic) {
     diagnostics: [...p.diagnostics.filter((d) => d.day !== row.day), row],
   }))
   enqueueSync({ type: 'diagnostic', payload: { kind: 'checkpoint', ...row } })
+  void syncCheckpointRow(row)
 }

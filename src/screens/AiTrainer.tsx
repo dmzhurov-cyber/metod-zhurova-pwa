@@ -1,4 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
+import { loadProgress } from '../lib/courseProgress'
+import { syncChatMessage } from '../lib/reportSync'
 import { getJSON, KEYS } from '../lib/storage'
 import { getSupabase } from '../lib/supabase'
 import { useCourseAccess } from '../context/CourseAccessContext'
@@ -128,6 +130,18 @@ function incrementDailyCount() {
   return count
 }
 
+function getAiChatSessionId(): string {
+  try {
+    const existing = localStorage.getItem(KEYS.aiChatSession)
+    if (existing) return existing
+    const id = crypto.randomUUID()
+    localStorage.setItem(KEYS.aiChatSession, id)
+    return id
+  } catch {
+    return crypto.randomUUID()
+  }
+}
+
 // ─── Компонент ───────────────────────────────────────────────────────────────
 
 export function AiTrainer() {
@@ -182,10 +196,18 @@ export function AiTrainer() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(messages))
   }, [messages])
 
-  // Сохраняем сообщение в Supabase
   async function saveToSupabase(msg: Message) {
     if (!sb || !userId) return
-    await sb.from('chat_messages').insert({ user_id: userId, role: msg.role, content: msg.content })
+    const env = import.meta.env as Record<string, string | undefined>
+    const appVersion = env.VITE_APP_VERSION || env.MODE || null
+    await syncChatMessage({
+      role: msg.role,
+      content: msg.content,
+      course_day: loadProgress().currentDay,
+      client_sent_at: new Date().toISOString(),
+      app_version: appVersion,
+      session_id: getAiChatSessionId(),
+    })
   }
 
   async function send() {

@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { UpdatePrompt } from './components/UpdatePrompt'
 import { AppShell } from './layouts/AppShell'
+import { flushReportOutbox } from './lib/reportSync'
 import { KEYS, getFlag } from './lib/storage'
 import { getSupabase } from './lib/supabase'
+import { flushSyncQueue } from './lib/syncQueue'
 import { AuthScreen } from './screens/AuthScreen'
 import { InstallOnboarding } from './screens/InstallOnboarding'
 import { InitialDiagnostics } from './screens/InitialDiagnostics'
@@ -54,6 +56,38 @@ export default function App() {
     })
     return () => subscription.unsubscribe()
   }, [])
+
+  useEffect(() => {
+    let debounceTimer: ReturnType<typeof setTimeout> | undefined
+    const scheduleCloudFlush = () => {
+      if (debounceTimer) clearTimeout(debounceTimer)
+      debounceTimer = setTimeout(() => {
+        debounceTimer = undefined
+        void flushReportOutbox()
+        void flushSyncQueue()
+      }, 400)
+    }
+
+    scheduleCloudFlush()
+    const onOnline = () => scheduleCloudFlush()
+    const onVisibility = () => {
+      if (document.visibilityState === 'visible') scheduleCloudFlush()
+    }
+    window.addEventListener('online', onOnline)
+    document.addEventListener('visibilitychange', onVisibility)
+    window.addEventListener('pageshow', onOnline)
+
+    const sb = getSupabase()
+    const authListener = sb?.auth.onAuthStateChange(() => scheduleCloudFlush())
+
+    return () => {
+      if (debounceTimer) clearTimeout(debounceTimer)
+      window.removeEventListener('online', onOnline)
+      document.removeEventListener('visibilitychange', onVisibility)
+      window.removeEventListener('pageshow', onOnline)
+      authListener?.data.subscription.unsubscribe()
+    }
+  }, [isAuthed])
 
   if (!authChecked) return <div style={{ minHeight: '100dvh', background: '#0a0f14' }} />
 

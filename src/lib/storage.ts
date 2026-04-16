@@ -7,6 +7,8 @@ export const KEYS = {
   theme: `${PREFIX}theme`,
   userState: `${PREFIX}user_state`,
   syncQueue: `${PREFIX}sync_queue`,
+  reportOutbox: `${PREFIX}sync_outbox_reports`,
+  aiChatSession: `${PREFIX}ai_chat_session_id`,
   lastSync: `${PREFIX}last_sync_at`,
   aiMessages: `${PREFIX}ai_messages`,            // история чата с тренером
   aiDailyCount: `${PREFIX}ai_daily_count`,       // лимит сообщений в день
