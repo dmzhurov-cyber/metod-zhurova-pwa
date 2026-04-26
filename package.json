@@ -10,6 +10,7 @@
     "gen:illustrations": "node scripts/generate-protocol-illustrations.mjs",
     "gen:schemes": "node scripts/generate-protocol-schemes.mjs",
     "extract:legacy": "node scripts/extract-legacy-html.mjs",
+    "provision:alpha": "node --env-file=.env.local scripts/provision-alpha-access.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Список e-mail/паролей для scripts/provision-alpha-access.mjs (никогда не коммитить)
+scripts/alpha-users.local.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

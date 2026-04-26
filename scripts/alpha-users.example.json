@@ -1,0 +1,7 @@
+{
+  "plan": "premium",
+  "days": 90,
+  "users": [
+    { "email": "user@example.com", "password": "min-6-chars" }
+  ]
+}
