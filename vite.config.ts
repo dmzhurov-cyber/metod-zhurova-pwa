@@ -41,6 +41,32 @@ export default defineConfig(({ command }) => {
         },
         workbox: {
           globPatterns: ['**/*.{js,css,html,ico,svg,png,woff2}'],
+          // РФ / нестабильная доставка: не отдавать из SW полустаб документ или обрыв —
+          // сначала сеть, кэш как запасной вариант (меньше «Failed to fetch» в консоли).
+          runtimeCaching: [
+            {
+              urlPattern: ({ request }) => request.mode === 'navigate',
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'pages-network-first',
+                networkTimeoutSeconds: 25,
+                cacheableResponse: {
+                  statuses: [0, 200],
+                },
+              },
+            },
+            {
+              urlPattern: ({ request }) => request.destination === 'font',
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'fonts-network-first',
+                networkTimeoutSeconds: 25,
+                cacheableResponse: {
+                  statuses: [0, 200],
+                },
+              },
+            },
+          ],
         },
       }),
     ],
